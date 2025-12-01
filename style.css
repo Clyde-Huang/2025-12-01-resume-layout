@@ -26,13 +26,14 @@ body {
 }
 
 .rightbox {
-    width: 354px;
+    width: 350px;
     height: 1000px;
-    background-color: #942637
+    background-color: #942637;
+    margin-left: 0;
 }
 
 .leftbox {
-    width: 446px;
+    width: 450px;
 }
 
 .righttopbox {
@@ -49,8 +50,8 @@ body {
     border: 2px solid white;
     background-color: #41a1f6;
 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 48px;
+    margin-bottom: 48.5px;
 }
 
 .name {
