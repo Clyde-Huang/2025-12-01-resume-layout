@@ -10,6 +10,12 @@ body {
     background-color: #333;
 }
 
+/* display: flex;
+    justify-content: center;
+    align-items: center;
+    讓子部置中3件套
+    */
+
 .mainbox {
     background-color: #fff8f2;
     width: 800px;
