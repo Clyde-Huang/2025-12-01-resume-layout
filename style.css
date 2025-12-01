@@ -1,3 +1,56 @@
-.tset{
-color:blueviolet
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.mainbox {
+    background-color: #fff8f2;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbox {
+    width: 354px;
+    height: 1000px;
+    background-color: #942637
+}
+
+.leftbox {
+    width: 446px;
+}
+
+.righttopbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom left, #fff8f2 50%, #942637 50%);
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #41a1f6;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.name {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+
 }
