@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+   
 }
 
 body {
@@ -18,22 +19,24 @@ body {
 
 .mainbox {
     background-color: #fff8f2;
-    width: 800px;
-    height: 1000px;
+    width: 950px;
+    height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .rightbox {
-    width: 350px;
-    height: 1000px;
+    width: 380px;
+    height: 1200px;
     background-color: #942637;
     margin-left: 0;
 }
 
 .leftbox {
-    width: 450px;
+    width: 570px;
+    padding-top: 65px;
+    padding-left: 50px;
 }
 
 .righttopbox {
@@ -48,16 +51,120 @@ body {
     height: 250px;
     border-radius: 50%;
     border: 2px solid white;
-    background-color: #41a1f6;
+    /* background-color: #41a1f6; */
 
-    margin-top: 48px;
-    margin-bottom: 48.5px;
+    margin-top: 56.7px;
+    margin-bottom: 50px;
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_bcyaTX-IbUPKfCdjisuLdLyZUVZd1VvUAQ&s');
+    background-position: left;
+    background-size: 26rem;
+    background-repeat: no-repeat;
 }
 
 .name {
-    font-size: 4rem;
+    font-size: 55px;
     color: white;
     text-align: center;
     margin-top: -30px;
 
+}
+
+.rightbottonbox {
+    color: white;
+    padding-left: 50px;
+    padding-top: 130px;
+}
+
+.rightbottonbox>hr {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    margin: 15px 0;
+    border: none;
+}
+.leftbox>hr{
+    width: 90%;
+    height: 2px;
+    background-color: #e1cbcd;
+    border: none;
+    margin-top: 10px;
+        margin-bottom: 5px;
+
+}
+.rightbottonbox>ol {
+    padding-left: 15px;
+}
+
+.rul {
+    margin: 15px 0;
+}
+
+.rul>li {
+    /* 上右下左 */
+    margin: 5px 0px 5px 10px;
+    list-style-type: disc;
+    /* 不知道為何不是被預設實心 */
+}
+
+.formargin {
+    margin-top: 80px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+
+
+p {
+    font-weight: bold;
+}
+
+.leftp {
+    color: #942637;
+
+}
+
+h3{
+    margin: 20px 0;
+    padding-left: 5px;
+    border-left: 2px solid black ;
+}
+
+.otherol>li{
+    margin: 12px 0;
+    margin-left: 12px;
+}
+
+.leftbox>ul{
+    
+    margin-left: 12px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .mainbox {
+    flex-direction: column;
+    height: 2400px;
+  }
+  .name {
+    font-size: 55px;
+    padding-top: 60px;
+  }
+
+  .righttopbox{
+    display: none;
+  }
+  .circle{
+    display: none;
+  }
 }
