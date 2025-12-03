@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-   
+
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     讓子部置中3件套
     */
 
-.mainbox {
+.mainBox {
     background-color: #fff8f2;
     width: 950px;
     height: 1200px;
@@ -26,20 +26,20 @@ body {
     align-items: center;
 }
 
-.rightbox {
+.leftBox {
     width: 380px;
     height: 1200px;
     background-color: #942637;
     margin-left: 0;
 }
 
-.leftbox {
+.rightBox {
     width: 570px;
     padding-top: 65px;
     padding-left: 50px;
 }
 
-.righttopbox {
+.leftTopBox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,16 +50,16 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 2px solid white;
-    /* background-color: #41a1f6; */
+    border: 2px solid rgb(162, 25, 203);
+
 
     margin-top: 56.7px;
     margin-bottom: 50px;
 
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_bcyaTX-IbUPKfCdjisuLdLyZUVZd1VvUAQ&s');
-    background-position: left;
-    background-size: 26rem;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFUEOgrAFHTgCKED1AJjd4pxl-kNTLqvnBQ&s');
+    background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .name {
@@ -70,81 +70,78 @@ body {
 
 }
 
-.rightbottonbox {
+.leftBottonBox {
     color: white;
     padding-left: 50px;
     padding-top: 130px;
 }
 
-.rightbottonbox>hr {
+.leftBottonBox>hr {
     width: 60px;
     height: 2px;
     background-color: white;
     margin: 15px 0;
     border: none;
 }
-.leftbox>hr{
+
+.rightBox>hr {
     width: 90%;
     height: 2px;
     background-color: #e1cbcd;
     border: none;
     margin-top: 10px;
-        margin-bottom: 5px;
+    margin-bottom: 5px;
 
 }
-.rightbottonbox>ol {
+
+.leftBottonBox>ol {
     padding-left: 15px;
 }
 
-.rul {
+.leftUi {
     margin: 15px 0;
 }
 
-.rul>li {
+.leftUi>li {
     /* 上右下左 */
     margin: 5px 0px 5px 10px;
     list-style-type: disc;
     /* 不知道為何不是被預設實心 */
 }
 
-.formargin {
+.manufacturingGap {
     margin-top: 80px;
 }
 
 p {
     font-size: 1.5rem;
-}
-
-
-
-
-p {
     font-weight: bold;
 }
 
-.leftp {
+
+.rightP {
     color: #942637;
 
 }
 
-h3{
+h3 {
     margin: 20px 0;
     padding-left: 5px;
-    border-left: 2px solid black ;
+    border-left: 2px solid black;
 }
 
-.otherol>li{
+.otherOl>li {
     margin: 12px 0;
     margin-left: 12px;
 }
 
-.leftbox>ul{
-    
+.rightBox>ul {
+
     margin-left: 12px;
 }
 
-a{
-    color:black;
+a {
+    color: black;
     text-decoration: none;
 }
 
@@ -152,19 +149,26 @@ a{
 
 
 @media (max-width: 768px) {
-  .mainbox {
-    flex-direction: column;
-    height: 2400px;
-  }
-  .name {
-    font-size: 55px;
-    padding-top: 60px;
-  }
+    .mainBox {
+        flex-direction: column;
+        height: 2400px;
+    }
 
-  .righttopbox{
-    display: none;
-  }
-  .circle{
-    display: none;
-  }
+    .name {
+        font-size: 55px;
+        padding-top: 60px;
+    }
+
+    .leftTopBox {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+}
+
+/* 12/3新增 */
+.mailTo {
+    color: white;
 }
